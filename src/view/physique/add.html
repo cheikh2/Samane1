@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajout client physique</title>
+</head>
+<body>
+    <div class="col-md-5 col-xs-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">Formulaire de gestion des clients moraux</div>
+            <div class="panel-body">
+        <form method="POST" action="{$url_base}Physique/insert">
+            <div class="form-group">
+                <label for="">Prenom</label>
+                <input class="form-control" type="text" name="prenom"required />
+            </div>
+    
+            <div class="form-group">
+                <label for="">Nom</label>
+                <input class="form-control" type="text" name="nom" required />
+            </div>
+    
+            <div class="form-group">
+                <label for="">Adresse</label>
+                <input class="form-control" type="text" name="adresse" required />
+            </div>
+    
+            <div class="form-group">
+                <label for="">Email</label>
+                <input class="form-control" type="text" name="email" required />
+            </div>
+    
+            <div class="form-group">
+                <label for="">Telephone</label>
+                <input class="form-control" type="text" name="telephone" required />
+            </div>
+
+            <div class="form-group">
+                <label for="">Sexe</label>
+                <input class="form-control" type="text" name="sexe" required />
+            </div>
+
+            <div class="form-group">
+                <label for="">Profession</label>
+                <input class="form-control" type="text" name="profession" required />
+            </div>
+
+            <div class="form-group">
+                <label for="">CNI</label>
+                <input class="form-control" type="text" name="cni" required />
+            </div>
+
+            <div class="form-group">
+                <label for="">Salaire</label>
+                <input class="form-control" type="text" name="salaire" required />
+            </div>
+
+            <div class="form-group">
+                <label for="">Employeur</label>
+                <select class="form-control" name="moral"></select>
+            </div>
+    
+            <div class="form-group">
+                <input class="btn btn-success" type="submit" name="valider" value="Envoyer">
+                <input class="btn btn-danger" type="reset" name="annuler" value="Annuler">
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>

@@ -18,7 +18,7 @@ $choix = "ORM";
 $etat = 'on'; //on or off
 
 $orm = array(
-              'dbname' => 'samanemvcorm_test',//change your database name
+              'dbname' => 'samane2',//change your database name
               'user'     => 'cheikh',
               'password' => 'Cheikh@mbow123',
               'host' => '127.0.0.1',
